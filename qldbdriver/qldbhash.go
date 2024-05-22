@@ -17,7 +17,7 @@ import (
 	"crypto/sha256"
 
 	"github.com/amazon-ion/ion-go/ion"
-	ionhash "github.com/amzn/ion-hash-go"
+	ionhash "github.com/pluto-market/ion-hash-go"
 )
 
 const hashSize = 32

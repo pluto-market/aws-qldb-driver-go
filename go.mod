@@ -1,17 +1,16 @@
-module github.com/awslabs/amazon-qldb-driver-go/v3
+module github.com/pluto-market/aws-qldb-driver-go
 
 go 1.22
 
-replace github.com/amzn/ion-hash-go => ../ion-hash-go
-
 require (
 	github.com/amazon-ion/ion-go v1.4.0
-	github.com/amzn/ion-hash-go v1.2.0
 	github.com/aws/aws-sdk-go-v2 v1.27.0
 	github.com/aws/aws-sdk-go-v2/config v1.27.15
 	github.com/aws/aws-sdk-go-v2/service/qldb v1.21.7
 	github.com/aws/aws-sdk-go-v2/service/qldbsession v1.21.7
 	github.com/aws/smithy-go v1.20.2
+	github.com/awslabs/amazon-qldb-driver-go/v3 v3.0.1
+	github.com/pluto-market/ion-hash-go v0.0.0-20240522092511-00a60f4133ff
 	github.com/stretchr/testify v1.9.0
 	golang.org/x/sync v0.7.0
 )
@@ -28,12 +27,9 @@ require (
 	github.com/aws/aws-sdk-go-v2/service/ssooidc v1.24.2 // indirect
 	github.com/aws/aws-sdk-go-v2/service/sts v1.28.9 // indirect
 	github.com/davecgh/go-spew v1.1.1 // indirect
-	github.com/google/go-cmp v0.5.8 // indirect
-	github.com/kr/text v0.2.0 // indirect
 	github.com/pmezard/go-difflib v1.0.0 // indirect
 	github.com/stretchr/objx v0.5.2 // indirect
-	golang.org/x/crypto v0.17.0 // indirect
-	golang.org/x/sys v0.15.0 // indirect
-	gopkg.in/check.v1 v1.0.0-20201130134442-10cb98267c6c // indirect
+	golang.org/x/crypto v0.23.0 // indirect
+	golang.org/x/sys v0.20.0 // indirect
 	gopkg.in/yaml.v3 v3.0.1 // indirect
 )
